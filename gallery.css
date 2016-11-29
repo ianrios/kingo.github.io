@@ -10,7 +10,6 @@ html, body {
 #accueil {
   background: url(Images/profile.jpg) no-repeat center -200px;
   background-size: cover;
-  height: 500px;
   height: 100%;
 }
 
