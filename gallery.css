@@ -106,7 +106,32 @@ input {
   background: rgba(255, 255, 255, 0.4);
   resize: none;
 }
+#fillpage{
+  font-size: 200px;
+  display:block;
+  text-align: center;
+    height:center;
+    width: center;
+    margin-top: 300px;
+    margin-bottom: 500px;
 
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+a:link{
+  color: white;
+  text-decoration: none;
+}a:active{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: pink;
+
+  text-decoration: none;
+}
 .submit {
   display: block;
   margin: 0 auto;
@@ -119,6 +144,8 @@ input {
 .btn-default:hover {
   background: #2c3e50;
   color: #fff;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 
